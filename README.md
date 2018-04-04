@@ -36,6 +36,16 @@ should be reserved undefined, NaN, Infinity
 
 > typeof [ 1, 2, 3 ] → "object"
 
+Template Literals super-powered strings
+
+`She said, "It's Me!"`
+
+> const name = `Siri`; >> `Hello ${ name }!`; → 'Hello Siri!'
+
+> const uniqueID = Symbol('this is a uniqueID');
+ 
+> typeof uniqueID → "symbol"
+
 ## Set-up
 
 Node v7.10.0
