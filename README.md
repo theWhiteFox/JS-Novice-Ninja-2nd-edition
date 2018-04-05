@@ -46,6 +46,22 @@ Template Literals super-powered strings
  
 > typeof uniqueID → "symbol"
 
+Only 9 values are always false and these are known as falsy values:
+
+- "" // double quoted empty string literal
+- '' // single quoted empty string literal
+- `` // empty template literal
+- 0
+- -0 // considered different to 0 by JavaScript!
+- NaN
+- false
+- null
+- undefined
+
+> Boolean(0); → false
+
+> !!(0) → false
+
 ## Set-up
 
 Node v7.10.0
