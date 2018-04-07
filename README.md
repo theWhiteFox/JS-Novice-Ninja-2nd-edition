@@ -62,6 +62,8 @@ Only 9 values are always false and these are known as falsy values:
 
 > !!(0) → false
 
+https://www.sitepoint.com/quick-tip-create-manipulate-arrays-in-javascript/
+
 ## Set-up
 
 Node v7.10.0
