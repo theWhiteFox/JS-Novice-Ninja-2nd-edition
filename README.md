@@ -64,6 +64,44 @@ Only 9 values are always false and these are known as falsy values:
 
 https://www.sitepoint.com/quick-tip-create-manipulate-arrays-in-javascript/
 
+> const letters = new Set('Hello');
+
+> letters → Set(4) [ "H", "e", "l", "o" ]
+
+> const words = new Set().add('the').add('quick').add('white').add('fox');
+
+> words → Set(4) [ "the", "quick", "white", "fox" ]
+
+> const arrays = new Set().add([1]).add([1]);
+
+> arrays → Set [ (1) […], (1) […] ]
+
+Set(2) size: 2 entries: 0: Array [ … ]  1: Array [ … ]
+
+> const mixedTypes = new Set().add(2).add('2');
+
+> mixedTypes → Set [ 2, "2" ]
+
+> mixedTypes.size → 2
+
+> mixedTypes.has('2'); → true​
+
+> mixedTypes.delete('2') → true​
+
+> mixedTypes → Set [ 2 ]
+
+> mixedTypes.clear()
+
+> mixedTypes → Set []
+
+spread operator with Set
+
+> const messagesShop = new Set().add('carrots').add('broccoli').add('rice');
+
+> const messagesArray = [...messagesShop];
+
+> messagesArray → Array(3) [ "carrots", "broccoli", "rice" ];
+
 ## Set-up
 
 Node v7.10.0
