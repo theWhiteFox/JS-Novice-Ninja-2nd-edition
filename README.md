@@ -102,6 +102,19 @@ spread operator with Set
 
 > messagesArray → Array(3) [ "carrots", "broccoli", "rice" ];
 
+> var fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
+
+> undefined
+
+> var citrus = fruits.slice(1, 3);
+
+> undefined
+
+> citrus
+
+> Array [ "Orange", "Lemon" ]
+
+
 ## Set-up
 
 Node v7.10.0
