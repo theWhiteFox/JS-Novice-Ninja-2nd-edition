@@ -104,19 +104,18 @@ spread operator with Set
 
 > var fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
 
-> undefined
-
 > var citrus = fruits.slice(1, 3);
 
-> undefined
-
-> citrus
-
-> Array [ "Orange", "Lemon" ]
-
+> citrus → Array [ "Orange", "Lemon" ]
 
 ## Set-up
 
 Node v7.10.0
 
 Node.js - REPL Terminal
+
+## links
+
+[developer mozilla Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+
+[developer mozilla Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
