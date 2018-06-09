@@ -119,3 +119,7 @@ Node.js - REPL Terminal
 [developer mozilla Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 
 [developer mozilla Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+[developer mozilla Map values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/values)
+
+[hackernoon es6 maps](https://hackernoon.com/what-you-should-know-about-es6-maps-dc66af6b9a1e)
