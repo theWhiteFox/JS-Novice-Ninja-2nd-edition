@@ -12,12 +12,15 @@ console.log(mapIter.next().value)
 console.log(map1.size);
 console.log(map1.values());
 
-for (let dinner of map1.values()) { 
+for (const dinner of map1.keys()) { 
   console.log(dinner);
 }
+
+let list = document.getElementById('demo');
+
 map1.forEach((value, key, array) => {
-  let items = `<li>${key} ${value}</li>`;
-  document.getElementById('demo').innerHTML = items;
+  let items = `<li>${key}: ${value}</li>`;
+  list.innerHTML = list.innerHTML + items;
 });
 
 
