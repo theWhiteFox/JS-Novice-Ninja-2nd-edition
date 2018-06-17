@@ -50,7 +50,7 @@ function start(quiz) {
     }
   }
   function gameOver() {
-    alert(`Game Over, you scored ${score} point${score !== 1 ? "s" : "l"}`);
+    alert(`Game Over, you scored ${score} point${score !== 1 ? "s" : " "}`);
   }
 }
 start(quiz);

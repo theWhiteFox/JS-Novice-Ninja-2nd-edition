@@ -108,6 +108,10 @@ spread operator with Set
 
 > citrus → Array [ "Orange", "Lemon" ]
 
+## Quiz
+
+[js-novice-ninja quiz](https://thewhitefox.github.io/js-novice-ninja/quiz/)
+
 ## Set-up
 
 Node v7.10.0
