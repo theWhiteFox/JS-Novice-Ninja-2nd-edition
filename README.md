@@ -108,6 +108,16 @@ spread operator with Set
 
 > citrus → Array [ "Orange", "Lemon" ]
 
+The keyword this refers to the object that it is within.
+
+DOM 
+
+> const body = document.body
+
+>  typeof body => "object"
+
+> body.nodeType; 1
+
 ## Quiz
 
 [js-novice-ninja quiz](https://thewhitefox.github.io/js-novice-ninja/quiz/)
