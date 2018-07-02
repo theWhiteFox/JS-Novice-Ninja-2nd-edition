@@ -118,6 +118,10 @@ DOM
 
 > body.nodeType; 1
 
+> document.querySelector('#bats'); <li id="bats" class="vigilante hero">
+
+> document.querySelectorAll('.hero'); NodeList(3) [ li.hero, li#bats.vigilante.hero, li.hero ]
+
 ## Quiz
 
 [js-novice-ninja quiz](https://thewhitefox.github.io/js-novice-ninja/quiz/)
@@ -137,3 +141,7 @@ Node.js - REPL Terminal
 [developer mozilla Map values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/values)
 
 [hackernoon es6 maps](https://hackernoon.com/what-you-should-know-about-es6-maps-dc66af6b9a1e)
+
+[Interface HTMLCollection](https://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-75708506)
+
+[The DOM also specifies a NodeList interface](https://www.w3.org/TR/DOM-Level-3-Core/core.html#td-live)
