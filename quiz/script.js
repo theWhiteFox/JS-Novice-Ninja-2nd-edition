@@ -70,5 +70,5 @@
   }
 
   console.log(starks.Bran);
-  Object.keys(starks).forEach(key => console.log(key, starks[key]));
+  Object.keys(starks).forEach(key => console.log(key, starks[key])); 
 })();
