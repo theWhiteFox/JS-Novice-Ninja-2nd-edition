@@ -2,3 +2,7 @@
     color: red;
     list-style-type: none;
 }
+
+.highlighted {
+    background-color: yellow;
+}
